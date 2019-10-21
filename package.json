@@ -4,7 +4,8 @@
   "description": "This is the repository for Unit 14: Handlebars.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/thomasxcox731/burger/issues"
   },
-  "homepage": "https://github.com/thomasxcox731/burger#readme"
+  "homepage": "https://github.com/thomasxcox731/burger#readme",
+  "dependencies": {
+    "express-handlebars": "^3.1.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {}
 }
